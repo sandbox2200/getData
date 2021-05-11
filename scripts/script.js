@@ -21,6 +21,7 @@ loginUser = async () => {
     try{
         let req = await fetch('https://portfolio-api-2200.herokuapp.com/auth/login', {
             method: 'POST',
+            mode: "no-cors",
             body: {
                 "email": "bond@gmail.com",
                 "password": "how I met your mother"
