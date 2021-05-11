@@ -5,7 +5,6 @@ let user = {
 
 let head = {
     method: 'POST',
-    mode: "no-cors",
     body: user,
     headers: {
         "Accept": "*/*",
